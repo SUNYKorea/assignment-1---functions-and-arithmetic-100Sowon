@@ -21,7 +21,7 @@ def what_to_wear(celsius):
    elif celsius <= 20:
        print("Light jacket")
    else:
-       print("T-shirt")
+       print("T-shirt") # please describe the output, asin Sweater for
 # ---------------------------- Exercise II --------------------------------------
 # ----------------- Area and perimeter of a triangle  ---------------------------
 # TODO: Fill the functions shoelace_triangle_area, euclidean_distance and
@@ -35,7 +35,7 @@ def euclidean_distance(x1, y1, x2, y2):
     return ((((x1-x2)**2)+((y1-y2)**2))**0.5)
 
 def compute_triangle_perimeter(x1, y1, x2, y2, x3, y3):
-    return ((((x1-x2)**2)+((y1-y2)**2))**0.5) + ((((x2-x3)**2)+((y2-y3)**2))**0.5) + ((((x3-x1)**2)+((y3-y1)**2))**0.5)
+    return ((((x1-x2)**2)+((y1-y2)**2))**0.5) + ((((x2-x3)**2)+((y2-y3)**2))**0.5) + ((((x3-x1)**2)+((y3-y1)**2))**0.5) #instaed of having all the code in a single line, you can make use of variables in python - concept taught in class 
 
 
 # ---------------------------- Exercise III -------------------------------------
@@ -52,7 +52,7 @@ def apothem(number_sides, length_side):
     return apothem
 
 def polygon_area(number_sides, length_side):
-    a = apothem(number_sides, length_side)
+    a = apothem(number_sides, length_side) # you can directly refer to the apothem method defined above instead of reassigning it to 'a'
     polygon_area = (((number_sides)*(length_side)*(a))/ 2)
     return polygon_area
 
