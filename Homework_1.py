@@ -1,6 +1,6 @@
 # Name: Sowon Baek
 # SBUID: 115241972
-
+#Score: 9.5/10
 # Remove the ellipses (...) when writing your solutions.
 
 # ---------------------------- Exercise I ---------------------------------------
@@ -21,7 +21,7 @@ def what_to_wear(celsius):
    elif celsius <= 20:
        print("Light jacket")
    else:
-       print("T-shirt") # please describe the output, asin Sweater for
+       print("T-shirt") # please describe the output, and not just the value
 # ---------------------------- Exercise II --------------------------------------
 # ----------------- Area and perimeter of a triangle  ---------------------------
 # TODO: Fill the functions shoelace_triangle_area, euclidean_distance and
