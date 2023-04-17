@@ -6,6 +6,7 @@
 # ----------------- Convert Fahrenheit to Celsius -------------------------------
 # TODO: Complete the implementation of fahrenheit2celsius () and what_to_wear(). 
 
+
 def fahrenheit2celsius(fahrenheit): 
     celsius = (5/9) * (fahrenheit - 32)
     return celsius
