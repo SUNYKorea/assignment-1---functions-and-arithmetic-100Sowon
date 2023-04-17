@@ -1,8 +1,7 @@
 # Name: Sowon Baek
 # SBUID: 115241972
-#Score: 9.5/10
+#Score: very 9.5/10
 # Remove the ellipses (...) when writing your solutions.
-
 # ---------------------------- Exercise I ---------------------------------------
 # ----------------- Convert Fahrenheit to Celsius -------------------------------
 # TODO: Complete the implementation of fahrenheit2celsius () and what_to_wear(). 
